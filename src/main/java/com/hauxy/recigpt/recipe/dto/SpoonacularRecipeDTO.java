@@ -1,4 +1,5 @@
 package com.hauxy.recigpt.recipe.dto;
 
-public class SpoonacularRecipeDTO {
+public record SpoonacularRecipeDTO(int id, String title, String image) {
 }
+
