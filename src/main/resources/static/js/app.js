@@ -28,7 +28,13 @@ form.addEventListener("submit", async (e) => {
     let html = `<div class="message bot">`;
 
     recipes.forEach(r => {
-        html += `<p>🍽️ <strong>${r.title}</strong><br>${r.description}</p><br>`;
+        html += `
+            <div class="recipe-card">
+                <h3>${r.title}</h3>
+                <img src="${r.image}" alt="${r.title}">
+                <a href="${r.link}" target="_blank">View recipe</a>
+            </div>
+        `;
     });
 
     html += `</div>`;
