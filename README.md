@@ -69,3 +69,6 @@ http://localhost:8080/auth.html
 - Add dietary filters (e.g. vegetarian, vegan)
 
 ---
+
+## NOTICE
+The app was meant to have AI integration but due to monetary neccesity it has not been implemented
